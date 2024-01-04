@@ -12,7 +12,7 @@ The following method is used for configuring the server connection:
 ```C#
 protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 ```
-found in [PlantContext.cs](https://github.com/BorcaAlexandruMiron/PlantsDB/blob/master/Plants/Models/PlantContext.cs). The connection string describes the server link (that can be configurated for a non-local database), the database that we want to access (that is provided in [Resources/Plante.mdf](https://github.com/BorcaAlexandruMiron/PlantsDB/blob/master/Plants/Resources/Plante.mdf)) and the creditentials (in our case being trusted with WindowsAuth). The next diagram provides a visual representation of our MSSQLLocalDB connection and database interogation:
+found in [PlantContext.cs](https://github.com/BorcaAlexandruMiron/PlantsDB/blob/master/Plants/Models/PlantContext.cs). The connection string describes the server link (that can be configurated for a non-local database), the database that we want to access (that is provided in [Resources/Plante.mdf](https://github.com/BorcaAlexandruMiron/PlantsDB/blob/master/Plants/Resources/Plante.mdf)) and the creditentials (in our case being trusted with WindowsAuth). The next diagram provides a visual representation of our MSSQLLocalDB connection and database interrogation:
 
 ![alt text](Plants/Resources/SQLConnection.png "Connection")
 ## Implementation and GUI showcase
